@@ -10,7 +10,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -19,5 +19,5 @@
   "devDependencies": {
     "react-bootstrap": "^0.31.3"
   },
-  "homepage": "https://armwr.github.io/countdownchimp"
+  "homepage": "https://armwr.github.io/countdownchimp/public"
 }
